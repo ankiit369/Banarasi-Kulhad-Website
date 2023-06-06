@@ -17,7 +17,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(7, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 10px;
   list-style: none;
   align-items: center;
@@ -49,15 +49,11 @@
 
 button {
   padding: 0.5rem, 1rem;
-  /* margin: 2rem; */
   white-space: nowrap;
   border-radius: 0.3rem;
   font-size: 1rem;
   font-weight: 600;
-  border-style: solid;
-  border-radius: 0.3rem;
-  border-width:0.5rem;
-  border-color: #f0f0f0;
+  border: none;
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
@@ -65,5 +61,4 @@ button {
 button:hover {
   background-color: #151516;
   color: #fff;
-  border-color: #151516;
 }
