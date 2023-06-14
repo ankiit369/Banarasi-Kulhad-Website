@@ -10,9 +10,6 @@ function Franchise(){
         heroImg={outer_bkl}
         title="Franchise Details"
         text=""
-        buttonText=""
-        url="/"
-        btnClass="show"
         />
         </>
     )

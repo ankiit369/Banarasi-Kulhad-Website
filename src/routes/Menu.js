@@ -10,9 +10,6 @@ function Contact(){
         heroImg={outer_bkl}
         title="Menu Details"
         text=""
-        buttonText=""
-        url="/"
-        btnClass="show"
         />
         </>
     )
