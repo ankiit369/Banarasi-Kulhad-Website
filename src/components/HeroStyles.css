@@ -34,7 +34,11 @@ img{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.hero-text .show:hover {
+    background-color: #78310c;
+    color: #fff;
+    border-color: #78310c;
+  }
 .hero-text p{
     font-size:1.3rem;
     color:#fff;
@@ -43,13 +47,18 @@ img{
 
 .hero-text .show{
     text-decoration: none;
-    background: #fff;
+    background: #d1520f;
     padding: 1rem, 2rem;
     border-radius:6px;
     font-size:1.1 rem;
     font-weight: bold;
     letter-spacing:2px;
+    transition: 0.2s ease-in-out;
     color:#222;
+    border-style: solid;
+    border-radius: 0.3rem;
+    border-width:0.5rem;
+    border-color: #d1520f;
 }
 
 @media screen and (max-width: 555px){

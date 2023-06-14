@@ -1,5 +1,5 @@
 .NavbarItems {
-  background-color: #fff;
+  background-color: #ffdf01;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +43,7 @@
 }
 
 .nav-links:hover {
-  background-color: #01959a;
+  background-color: #78310c;
   color: #fff;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
@@ -62,11 +62,17 @@ button {
   border: none;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  background-color: #d1520f;
+  border-style: solid;
+  border-radius: 0.3rem;
+  border-width:0.5rem;
+  border-color: #d1520f;
 }
 
 button:hover {
-  background-color: #151516;
+  background-color: #78310c;
   color: #fff;
+  border-color: #78310c;
 }
 .menu-icons{
   display: none;
@@ -79,7 +85,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: #fff;
+    background: #ffdf01;
     width: 100%;
     height: auto;
     position: absolute;
@@ -105,7 +111,7 @@ button:hover {
     padding: 2rem 0;
   }
   .nav-links:hover{
-    background: #01959a;
+    background: #78310c;
     transition: none;
 
   }
@@ -119,9 +125,9 @@ button:hover {
     margin: auto;
     border-radius: 4px;
     width: 80%;
-    background: #01959a;
+    background: #78310c;
     text-decoration: none;
-    color: #fff;
+    color: #ffdf01;
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 2px;
