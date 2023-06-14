@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./NavbarStyles.css";
 import { Link } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
+import navbarlogo from "../assets/navbar_logo_bkl.jpg";
 class Navbar extends Component {
   state={clicked:false};
   handleClick=()=>{
@@ -10,7 +11,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">banarasikulhad</h1>
+        <img className= "navbar-logo" src={navbarlogo} alt="BKL logo.co"></img>
         
         <div className="menu-icons" onClick={this.handleClick}>
           <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>

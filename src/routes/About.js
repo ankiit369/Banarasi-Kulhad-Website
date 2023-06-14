@@ -10,12 +10,8 @@ function About(){
         heroImg={decor2_bkl}
         title="About"
         text=""
-        buttonText=""
-        url="/"
-        btnClass="show"
         />
         </>
     )
 }
-
 export default About;
