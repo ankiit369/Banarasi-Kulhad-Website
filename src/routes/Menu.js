@@ -1,11 +1,21 @@
 import Navbar from "../components/Navbar";
-function Menu(){
+import Hero from "../components/Hero";
+import outer_bkl from "../assets/Menuu_bkl.jpg";
+function Contact(){
     return(
         <>
         <Navbar />
-        <h1>Menu Items</h1>
+        <Hero 
+        cName="hero-mid"
+        heroImg={outer_bkl}
+        title="Menu Details"
+        text=""
+        buttonText=""
+        url="/"
+        btnClass="show"
+        />
         </>
     )
 }
 
-export default Menu;
+export default Contact;
